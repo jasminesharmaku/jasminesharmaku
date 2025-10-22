@@ -1,0 +1,41 @@
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.parallax {
+    background-image: url('path/to/image.jpg'); /* Update with actual image path */
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-cursor {
+    cursor: url('path/to/custom-cursor.png'), auto; /* Update with actual cursor path */
+}
+
+body {
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text */
+}
+
+.primary {
+    color: #007bff; /* Primary color */
+}
+
+.secondary {
+    color: #6c757d; /* Secondary color */
+}
